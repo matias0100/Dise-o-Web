@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.lut{
+    
+    background-image: url(../imagenes/beatle1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.practice {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(../imagenes/gun.jpg);
+    font-family: 'UnifrakturCook', cursive;
+}
+
+.create{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    background-image: url(../imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+} 
+
+.us{
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagenes/slash-02.jpg);
+}
+
+body{
+    font-family: 'UnifrakturCook', cursive;
+    background-image:url(../imagenes/rocko.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+    color: #8f2121;
+    background-color: black;
+    width: 100%;
+    font-family: 'UnifrakturCook', cursive;
+    text-align: center;
+    
+}
+h3{
+    color: bisque;
+    font-size: 40px;
+    font-family: 'UnifrakturCook', cursive;
+   
+}
+  p {
+    margin-bottom: 1.6em;
+
+  }
+  
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #333;
+    color: rgb(240, 243, 247);
+    padding: 2rem 0;
+    width: 100%;
+
+}
+.logo img{
+    height: 60px;
+
+}
+.header a{
+    color: rgb(255, 255, 255);
+}
+.logo-nav-decoration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul{
+    list-style: none;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    
+}
+.navigation ul li a :hover{
+    background-color: #8f2121;
+}
+.description{
+    font-style: italic;
+    text-align: center;
+    color: #da0505;
+    font-size: large;
+    
+  
+}
+footer{
+   background-color: black;
+   color: #da0505;
+   padding: 1em 0;
+   text-align: center;
+   
+}
+.container p{
+    color: #771717;
+    font-size: large;
+}
+
+
+.parrafo p{
+   flex-direction: column;
+}
+
+.carta{
+    color: #110202;
+
+}
+
+.carta img{
+    height: 180px;
+    padding: 20px;
+    flex-direction: column;
+}
+.carta p{
+    padding: 2.3px;
+    font-size: 20px;
+    flex-direction: column;
+}
+.sal{
+    flex-direction: column;
+}
+
+.in{
+    flex-direction: column;
+}
+
+.button{
+    padding: auto;
+}
+
+
+.controls {
+    text-align: justify;
+    color:red;
+}
+
+.form-register {
+    width: 400px;
+    background: #774a85;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'UnifrakturCook', cursive;
+    color:black;
+    box-shadow: 7px 13px 37px red;
+}
+.form-register h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls {
+
+    width: 100%;
+    background: gainsboro;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 18px;
+}
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-register a {
+
+    color: beige;
+    text-decoration: none;
+}
+.form-register a :hover{
+
+    color: white;
+    text-decoration: underline;
+}
+.form-register .botons{
+    width: 100%;
+    background: black;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.parrafo p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    color: #da0505;
+   
+}
+.carusel-item{
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: trasnform .6s ease-in-out;
+
+}
